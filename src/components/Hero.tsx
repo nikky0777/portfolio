@@ -5,21 +5,21 @@ import { FiGithub, FiLinkedin, FiCode, FiMail } from "react-icons/fi";
 const socialLinks = [
   {
     Icon: FiLinkedin,
-    href: "https://www.linkedin.com/in/anuragdhull/",
+    href: "https://www.linkedin.com/in/nikky-singh-65917824a/",
     label: "LinkedIn",
     color: "hover:text-[#0077B5]",
     bgColor: "group-hover:bg-[#0077B5]/10",
   },
   {
     Icon: FiGithub,
-    href: "https://github.com/AnuragDhull",
+    href: "https://github.com/nikky0777",
     label: "GitHub",
     color: "hover:text-white",
     bgColor: "group-hover:bg-white/10",
   },
   {
     Icon: FiCode,
-    href: "https://leetcode.com/u/Anurag_Dhull/",
+    href: "#",
     label: "LeetCode",
     color: "hover:text-[#FFA116]",
     bgColor: "group-hover:bg-[#FFA116]/10",
@@ -157,7 +157,7 @@ const Hero = () => {
                 <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 border-secondary/20 backdrop-blur-sm">
                   <img
                     src="/my-pic.jpg"
-                    alt="Anurag Dhull"
+                    alt="Nikky Singh"
                     className="w-full h-full object-cover object-center rounded-2xl transform group-hover:scale-102 transition duration-500"
                   />
 
@@ -217,7 +217,7 @@ const Hero = () => {
               >
                 <span className="relative inline-block">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-secondary-light to-white">
-                    Anurag Dhull
+                    Nikky Singh
                   </span>
                   <motion.span
                     className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-accent-purple via-secondary to-secondary-light"
@@ -293,12 +293,12 @@ const Hero = () => {
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-lighter/20 border border-secondary/30 hover:border-secondary/60 transition-all duration-300 group cursor-pointer"
                   whileHover={{ scale: 1.05 }}
                   onClick={() =>
-                    navigator.clipboard.writeText("dhullanurag206@gmail.com")
+                    navigator.clipboard.writeText("nikkysingh2403@gmail.com")
                   }
                 >
                   <FiMail className="w-5 h-5 text-secondary group-hover:text-secondary-light transition-colors" />
                   <span className="text-white group-hover:text-secondary-light transition-colors">
-                    dhullanurag206@gmail.com
+                    nikkysingh2403@gmail.com
                   </span>
                 </motion.p>
               </div>
