@@ -34,26 +34,26 @@ const educationList: Education[] = [
     website: "https://www.lpu.in/",
   },
   {
-    institution: "RKSD Public School",
+    institution: "Divine Public School",
     degree: "Class 12",
-    location: "Haryana",
+    location: "Punjab",
     duration: "2020 - 2021",
     details: ["93.2%"],
     icon: FaSchool,
     image:
       "https://rksdpublicschool.org/wp-content/uploads/2023/12/IMG_9150-1copy-1024x664.jpg",
-    website: "https://rksdpublicschool.org/",
+    website: "#",
   },
   {
-    institution: "RKSD Public School",
+    institution: "Divine Public School",
     degree: "Class 10",
-    location: "Haryana",
+    location: "Pubjab",
     duration: "2018 - 2019",
     details: ["89.2%"],
     icon: FaSchool,
     image:
       "https://rksdpublicschool.org/wp-content/uploads/2023/12/IMG_9150-1copy-1024x664.jpg",
-    website: "https://rksdpublicschool.org/",
+    website: "#",
   },
 ];
 
